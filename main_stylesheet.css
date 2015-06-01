@@ -1,0 +1,57 @@
+/*This stylesheet is like a primary css template to the complete 
+  website and intends to keep styling at a simple level
+  any changes to a specific page can be added in a new css file,
+  and linked to that particular page. Nothing specific goes into
+  this style-sheet
+
+  This sheet is a must include for all webpages in this site.
+  */
+
+body{
+	background: url("");		/*url for the background image can be updated here*/
+	background-attachment: ; 	/*background attachments can be fixed, or scrollable*/
+}
+
+/*The header of the webpage can have specific behaviours by updating
+this section*/
+header{
+	text-align: ;
+	text-shadow: ;		
+}
+
+/*styling for the main title*/
+#document_head{
+	color: ;
+	font-family: ;
+	font-size: ;
+	font-weight: ;
+}
+
+/*All pages in this website have a body composed of section tags which
+  are the first children of a page's body tag*/
+.main_section{
+	background-color: ;
+	text-align: ;
+	padding: ;
+	margin: ;
+	color: ;
+	font-family: ;
+	font-size: ;
+	box-shadow: ;
+}
+
+/*paragraph tags have a uniform style throughout this website*/
+p{
+	color: ;
+	font-family: ;
+	font-size: ;
+}
+
+/*styling for the footer can be made as an when required*/
+footer{
+	text-align: ;
+	text-shadow: ;
+	font-family: ;
+	font-size: ;
+	color: ;
+}

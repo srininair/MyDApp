@@ -1,0 +1,88 @@
+/*This stylesheet is like a primary css template to the complete 
+  website and intends to keep styling at a simple level
+  any changes to a specific page can be added in a new css file,
+  and linked to that particular page. Nothing specific goes into
+  this style-sheet
+
+  This sheet is a must include for all webpages in this site.
+  */
+
+body{
+	background: url("");		/*url for the background image can be updated here*/
+	background-attachment: ; 	/*background attachments can be fixed, or scrollable*/
+}
+
+/*The header of the webpage can have specific behaviours by updating
+this section*/
+header{
+	text-align: center ;
+	text-shadow: ;		
+}
+
+/*styling for the main title*/
+#document_head{
+	color: #C373F5;
+	font-family: Arial;
+	font-size: 10;
+	font-weight: ;
+}
+
+/*All pages in this website have a body composed of section tags which
+  are the first children of a page's body tag*/
+.main_section{
+	background-color: ;
+	text-align: ;
+	padding: ;
+	margin: ;
+	color: ;
+	font-family: ;
+	font-size: ;
+	box-shadow: ;
+}
+
+/*paragraph tags have a uniform style throughout this website*/
+p{
+	color: ;
+	font-family: ;
+	font-size: ;
+}
+
+/*styling for the footer can be made as an when required*/
+footer{
+	text-align: ;
+	text-shadow: ;
+	font-family: ;
+	font-size: ;
+	color: ;
+}
+
+/* Styles for the divs */
+divButton {
+    display: inline-block ;
+	border: 1px solid black;
+	height: 20px ;
+	width: 60px ;
+	color: white ;
+	background-color: blue ;
+	text-align: center ;
+	box-radius: 5px ;
+	box-shadow: 0px 0px 10px blue ;
+    cursor: pointer ;
+
+}
+
+divButton:active{
+   color: blue ;
+   background-color: white ;
+   box-shadow: none ;
+}
+
+textarea{
+   height: 3em ;
+   font-size: 1em ;
+   width: 100% ;
+   max-width: 60em ;
+   background: white ;
+   color: black ;
+}
+
